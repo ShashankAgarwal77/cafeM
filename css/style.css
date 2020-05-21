@@ -1,0 +1,141 @@
+
+:root {
+    --clr-dark: #6f4037;
+    --clr-light: #fff;
+
+    --ff-primary: "Bree Serif";
+    --ff-secondary: Pacifico;
+    --fs-h2: 3.5rem;
+    --fs-h3: 3rem;
+    --fs-body: 1.1rem;
+
+    --bs: 0 2px 2px 0 rgba(0,0,0,0.14),
+          0 3px 1px -2px rgba(0,0,0,0.12),
+          0 1px 5px 0 rgba(0,0,0,0.2);
+}
+
+body {
+    font-family: var(--ff-primary);
+}
+
+.brand-logo{
+    margin-left: .5em;
+    font-family: var(--ff-secondary);
+    letter-spacing: .09rem;
+}
+
+#nav-mobile {
+    margin:0 .5em;
+    font-family: var(--ff-primary);
+}
+
+h2{
+    font-size: var(--fs-h2) ;
+}
+
+h3{
+    font-size: var(--fs-h3);
+}
+
+.nav-wrapper{
+    background-color: var(--clr-dark);
+}
+
+img {
+    background-color: var(--clr-dark);
+    background-blend-mode: soft-light;
+}
+
+.header{
+    margin-bottom: 1em;
+}
+
+p{
+    font-size: var(--fs-body);
+}
+
+.header__p {
+    margin-top: 2em;
+}
+
+.header__img {
+    height: 200px;
+    width: auto;
+    object-fit: contain;
+    box-shadow: var(--bs);
+    border-radius: .5em;
+}
+
+.slider .indicators .indicator-item.active {
+    
+    background-color: var(--clr-dark);
+}
+
+.descrip {
+    padding-bottom: 2em;
+}
+
+.fcard__row {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.fcard__col{
+    padding: 50px 5px;
+    margin-bottom: 2em;
+
+}
+
+.parallax-container {
+    min-height: 380px;
+    height: auto;
+}
+
+.btn {
+    background: var(--clr-dark);
+}
+
+.btn:hover{
+    background-color: #4e2d26;
+}
+
+.fservices__row {
+    padding-left: 50px;
+    padding: 50px;
+}
+
+.fservices__col {
+    padding: 50px;
+}
+
+.icon-coffee{
+    color: var(--clr-dark);
+}
+
+.carousel{
+    margin-bottom: 30px;
+}
+
+.carousel-item--col__card{
+    background-color: var(--clr-dark);
+}
+
+.footer-one {
+    background: var(--clr-dark);
+}
+
+.footer-two {
+    background: #462822;
+}
+
+.icon__location,
+.icon__phone
+{
+    position: relative;
+    top:5px;
+    right: 5px;
+}
+
+.footer-two__credit {
+    float: right;
+}
